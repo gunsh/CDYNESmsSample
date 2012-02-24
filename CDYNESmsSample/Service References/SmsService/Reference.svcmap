@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a5c4fb92-f03f-46b4-bafa-6b9b68f08960" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://sms2.cdyne.com/sms.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="sms.disco" MetadataType="Disco" ID="38dac83a-0b64-4049-a2f2-f7cb33557d60" SourceId="1" SourceUrl="http://sms2.cdyne.com/sms.svc?disco" />
+    <MetadataFile FileName="sms.xsd" MetadataType="Schema" ID="f4c70306-6294-4180-8816-3c319e57e361" SourceId="1" SourceUrl="http://sms2.cdyne.com/sms.svc?xsd=xsd0" />
+    <MetadataFile FileName="sms1.xsd" MetadataType="Schema" ID="d4bc8b1c-c99d-4cc6-bc66-9ed2efa1ada7" SourceId="1" SourceUrl="http://sms2.cdyne.com/sms.svc?xsd=xsd1" />
+    <MetadataFile FileName="sms2.xsd" MetadataType="Schema" ID="ec80a464-3187-46d5-b128-9c1100114fcb" SourceId="1" SourceUrl="http://sms2.cdyne.com/sms.svc?xsd=xsd2" />
+    <MetadataFile FileName="sms3.xsd" MetadataType="Schema" ID="bf6750bc-5452-415b-b935-0e167c55ddce" SourceId="1" SourceUrl="http://sms2.cdyne.com/sms.svc?xsd=xsd3" />
+    <MetadataFile FileName="sms.wsdl" MetadataType="Wsdl" ID="8f23ca14-e861-4c35-84f2-e2727eb5378c" SourceId="1" SourceUrl="http://sms2.cdyne.com/sms.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="sms1.wsdl" MetadataType="Wsdl" ID="ff96e650-8375-44ea-bcaa-7e1e79391f02" SourceId="1" SourceUrl="http://sms2.cdyne.com/sms.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
